@@ -1,0 +1,16 @@
+a=input("enter the value of a:")
+a=float(a)
+b=input("enter the value of b:")
+b=float(b)
+c=input("enter value of c:")
+c=float(c)
+import math
+#assigning the square root part of formula under variable "s"
+s=math.sqrt(b**2-4*a*c)
+#the variable "x1" is created that will contain first value of answer
+x1=(-b+s)/(2*a)
+#the variable "x2" will contain second answer of quadratic formula
+x2=(-b-s)/(2*a)
+print("x1:",(x1))
+print("x2:",(x2))
+
